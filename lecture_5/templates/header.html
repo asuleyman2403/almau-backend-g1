@@ -1,0 +1,57 @@
+{% load static %}
+
+<header class = "header">
+      <div class="header-top">
+        <a class = "logo" href="#">Landing</a>
+        <nav class = "nav">
+          <a class = "nav__link nav__link_active" href="#">Home</a>
+          <a class = "nav__link" href="#">Work</a>
+          <a class = "nav__link" href="#">Services</a>
+          <a class = "nav__link" href="#">Blog</a>
+          <a class = "nav__link" href="#">About</a>
+          <a class = "nav__link" href="#">Contact</a>
+          <a class = "nav__link nav__link_bordered" href="#" id = "signUp">Sign up</a>
+          <a class = "nav__link nav__link_bordered" href="#">Login</a>
+        </nav>
+      </div>
+      <header class="header-mobile">
+        <div class="header-mobile-top" id = "mobile-top">
+          <a class = "logo" href="#">Landing</a>
+          <i class = "icon-menu icon-menu-mobile" id = "hamburger"></i>
+        </div>
+        <nav class = "nav-mobile" id = "nav-mobile">
+          <a class = "nav__link nav__link_mobile" href="#">Home</a>
+          <a class = "nav__link nav__link_mobile" href="#">Work</a>
+          <a class = "nav__link nav__link_mobile" href="#">Services</a>
+          <a class = "nav__link nav__link_mobile" href="#">Blog</a>
+          <a class = "nav__link nav__link_mobile" href="#">About</a>
+          <a class = "nav__link nav__link_mobile" href="#">Contact</a>
+          <a class = "nav__link nav__link_mobile" href="#" id = "signUpMobile">Sign up</a>
+          <a class = "nav__link nav__link_mobile" href="#">Login</a>
+        </nav>
+      </header>
+      <div class="header-bottom">
+        <div class="intro">
+          <h1 class = "intro_main-text">Landing Created By The Fine Folks</h1>
+          <p class = "intro_para">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line</p>
+          <div class="button-group">
+            <button class = "button-group_button" type="button" name="button">Live Preview</button>
+            <button class = "button-group_button" type="button" name="button">Learn More</button>
+          </div>
+        </div>
+        <div class="header-bottom_slider slider">
+            <div class="slider__item">
+              <img class = "header-bottom_img slider__image" src="{% static 'online_shop/images/img_bg_1.jpg' %}" alt="Background Image">
+            </div>
+            <div class="slider__item">
+              <img class = "header-bottom_img  slider__image" src="{% static 'online_shop/images/img_bg_2.jpg' %}" alt="Background Image">
+            </div>
+            <div class="slider__item">
+              <img class = "header-bottom_img  slider__image" src="{% static 'online_shop/images/img_bg_3.jpg' %}" alt="Background Image">
+            </div>
+            <div class="slider__item">
+              <img class = "header-bottom_img  slider__image" src="{% static 'online_shop/images/img_bg_4.jpg' %}" alt="Background Image">
+            </div>
+        </div>
+      </div>
+    </header>

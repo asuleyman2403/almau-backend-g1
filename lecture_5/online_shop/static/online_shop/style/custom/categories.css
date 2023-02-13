@@ -1,0 +1,16 @@
+.categories {
+    width: 80%;
+    margin: 50px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.category {
+    padding: 20px;
+    color: #fff;
+    background: #a2dc4d;
+    font-weight: 500;
+    font-size: 20px;
+}
